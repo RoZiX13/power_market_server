@@ -1,0 +1,8 @@
+<p lang="ru">Перейдите по ссылке для подтверждения email:</p>
+
+<html lang="ru" xmlns:th="http://thymeleaf.org">
+    <body>
+        <p lang="ru">Перейдите по ссылке для подтверждения email:</p>
+        <a th:href="@{http://localhost:8080/auth?code=${code}&login=${login}}">Подтвердить email </a>
+    </body>
+</html>
